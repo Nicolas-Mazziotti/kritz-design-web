@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="design-container">
+        <div class="design-buttons-container">
+            <button id="btn-camiseta-jugador" class="btn-camiseta-jugador">
+                <img src="assets/images/camisetas/icono-camiseta.png" alt="">
+                <p>Jugador</p>
+            </button>
+            <button id="btn-camiseta-arquero" class="btn-camiseta-arquero">
+                <img src="assets/images/camisetas/icono-camiseta.png" alt="">
+                <p>Arquero</p>
+            </button>
+            <button id="btn-short-jugador" class="btn-short-jugador">
+                <img src="assets/images/shorts/icono-short.png" alt="">
+                <p>Jugador</p>
+            </button>
+            <button id="btn-short-arquero" class="btn-short-arquero">
+                <img src="assets/images/shorts/icono-short.png" alt="">
+                <p>Arquero</p>
+            </button>
+            <button id="btn-joggin" class="btn-joggin">
+                <img src="assets/images/joggins/icono-joggin.png" alt="">
+                <p>Jogging</p>
+            </button>
+            <button id="btn-campera" class="btn-campera">
+                <img src="assets/images/camperas/icono-campera.png" alt="">
+                <p>Campera</p>
+            </button>
+        </div>
+       <div class="image-models-container">
+        <div class="front-back-image-container">
+            <h1 id="name-design"></h1>
+            <!-- <div class=""> -->
+                <div class="design-main-image-container">
+                </div>
+                <div class="main-image-number"></div>
+            <!-- </div> -->
+        </div>
+        <!------ VARIABLES PARA SELECCION DE MODELOS ------>
+        <div class="design-tabs-containers">
+            <div class="tabs-buttons">
+                <button id="btn_tab_models">Modelos</button>
+                <button id="btn_tab_colors">Colores</button>
+                <button id="btn_tab_numbers">Números</button>
+            </div>
+            <div class="tab-models">
+                <h3>Seleccione el modelo</h3>
+                <div class="models"> </div>
+
+                <div class="btn-models-container">
+                    <button class="btn-prev">Anterior</button>
+                    <button class="btn-next">Siguiente</button>
+                </div>
+            </div>
+
+
+            <div class="tab-numbers">
+                <h3>Seleccione el modelo</h3>
+                <div class="numbers">
+                </div>
+            </div>            
+            <div class="tab-colors">
+                <h3>Seleccione los colores</h3>
+                <div class="main-colors">
+                    <h5>Color Principal</h5>
+                    <ul class="main-colors-list">
+                        <li class="main-color-1"></li>
+                        <li class="main-color-2"></li>
+                        <li class="main-color-3"></li>
+                        <li class="main-color-4"></li>
+                        <li class="main-color-5"></li>
+                        <li class="main-color-6"></li>
+                        <li class="main-color-7"></li>
+                        <li class="main-color-8"></li>
+                        <li class="main-color-9"></li>
+                        <li class="main-color-10"></li>
+                        <li class="main-color-11"></li>
+                        <li class="main-color-12"></li>
+                        <li class="main-color-13"></li>
+                        <li class="main-color-14"></li>
+                        <li class="main-color-15"></li>
+                        <li class="main-color-16"></li>
+                        <li class="main-color-17"></li>
+                        <li class="main-color-18"></li>
+                        <li class="main-color-19"></li>
+                        <li class="main-color-20"></li>
+                    </ul>
+                </div>
+                <div class="secondary-colors">
+                    <h5>Color Secundario</h5>
+                    <ul class="main-colors-list">
+                        <li class="secondary-color-1"></li>
+                        <li class="secondary-color-2"></li>
+                        <li class="secondary-color-3"></li>
+                        <li class="secondary-color-4"></li>
+                        <li class="secondary-color-5"></li>
+                        <li class="secondary-color-6"></li>
+                        <li class="secondary-color-7"></li>
+                        <li class="secondary-color-8"></li>
+                        <li class="secondary-color-9"></li>
+                        <li class="secondary-color-10"></li>
+                        <li class="secondary-color-11"></li>
+                        <li class="secondary-color-12"></li>
+                        <li class="secondary-color-13"></li>
+                        <li class="secondary-color-14"></li>
+                        <li class="secondary-color-15"></li>
+                        <li class="secondary-color-16"></li>
+                        <li class="secondary-color-17"></li>
+                        <li class="secondary-color-18"></li>
+                        <li class="secondary-color-19"></li>
+                        <li class="secondary-color-20"></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="tab-separator">
+             <div class="btn-add-design-container"> 
+                <button id="btn_add_design">Agregar diseño</button>
+                <button id="btn_remove_design">Quitar diseño</button>
+            </div> 
+           
+        </div>
+    </div> 
+        <!------ FIN VARIABLES PARA SELECCION DE MODELOS ------>
+
+    </div>
+    <div class="btn-continue-container">
+        <button id="btn-continue">CONTINUAR
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 14px;">
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 14px;"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></button>
+    </div>
+    <div class="btn-back-container">
+        <button id="btn-back">VOLVER AL DISEÑADOR
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 14px;">
+                <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l192-192c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L77.3 256l169.3 169.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-192-192z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 14px;">
+                <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l192-192c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L77.3 256l169.3 169.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-192-192z"/>
+            </svg>            
+    </div>
+
+    <div id="form-container" style="display: none;">
+        <form id="design-form">
+            <div id="team-fields">
+                <!-- Aquí se generarán las filas dinámicamente -->
+            </div>
+            <button type="button" id="add-player-btn">Agregar Jugador</button>
+            <button type="button" id="remove-player-btn">Eliminar Jugador</button>
+            <button type="submit" id="btn_send_form">Enviar</button>            
+        </form>        
+    </div>    
+    <!-- </div> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
